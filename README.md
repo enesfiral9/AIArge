@@ -1,3 +1,3 @@
 
-# Bir takım arge işleri...
+# Bir takım arge işleri... NETİGMA
 
