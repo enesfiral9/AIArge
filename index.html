@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netigma</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="top-bar">
+        <div class="logo-section">
+          <span class="logo-text-n">N</span><span class="logo-text-etigma">etigma</span>
+        </div>
+        <div class="nav-section">
+          <button class="nav-icon-btn" aria-label="Go back">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <nav aria-label="Main navigation">
+            <a href="#" class="nav-item active" aria-current="page">
+              <i class="fas fa-chart-bar" aria-hidden="true"></i>
+              <span>Ana Sayfa</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="fas fa-book" aria-hidden="true"></i>
+              <span>Harita</span>
+            </a>
+          </nav>
+        </div>
+        <div class="actions-section">
+          <div class="search-bar-top" role="search">
+            <input type="text" placeholder="Arama" aria-label="Search" />
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </div>
+          <button class="action-btn">
+            <i class="fas fa-th" aria-hidden="true"></i>
+            <span>Menü</span>
+          </button>
+          <button class="action-btn" aria-label="Settings">
+            <i class="fas fa-cog" aria-hidden="true"></i>
+          </button>
+        </div>
+      </header>
+
+      <aside class="side-bar">
+        <div class="profile-section">g
+          <div class="avatar">
+            <i class="fas fa-user" aria-hidden="true"></i>
+          </div>
+            <span>Enes Fıral</span>
+            <i class="fas fa-caret-down" aria-hidden="true"></i>
+  
+          <div class="profile-info">        </div>
+        </div>
+        <div class="search-bar-side" role="search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input type="text" aria-label="Search in sidebar" />
+        </div>
+        <nav class="side-nav" aria-label="Sidebar navigation">
+          <ul>
+            <li><a href="#"><i class="far fa-file-alt" aria-hidden="true"></i><span>Kullanıcı Bilgilerim</span></a></li>
+            <li><a href="#"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span>Hızlı İşler</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span>E-BELGE</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="far fa-file-alt" aria-hidden="true"></i><span>E-EKSPER</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="far fa-file-alt" aria-hidden="true"></i><span>İşyeri Ruhsat</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fas fa-fire-extinguisher" aria-hidden="true"></i><span>Fen İşleri</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>Kadastro/Numarataj</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="far fa-file-alt" aria-hidden="true"></i><span>E-Destek</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fas fa-car" aria-hidden="true"></i><span>Araç Talep ve Yönetim</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <div class="content-header">
+          <h1>Ana Sayfa</h1>
+          <i class="fas fa-caret-down" aria-hidden="true"></i>
+        </div>
+        <div class="content-body">
+          <section class="info-card" aria-labelledby="user-card-heading">
+            <div class="card-header">
+              <h2 id="user-card-heading">Kullanıcı</h2>
+            </div>
+            <div class="card-body">
+              <p>1894 Enes Fıral (enes.firal)</p>
+              <p><strong>Son Giriş:</strong> 02.09.2025 09:23:07</p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
