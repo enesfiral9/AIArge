@@ -1,3 +1,3 @@
 
-# BİR TAKIM ARGE
+# Bir takım arge çalışması...
 
